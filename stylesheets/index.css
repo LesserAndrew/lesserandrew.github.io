@@ -1,0 +1,54 @@
+@font-face {
+	font-family: "Nunito Sans";
+	src: url("../fonts/Nunito_Sans/NunitoSans-Regular.ttf");
+}
+
+body {
+	background: linear-gradient(#399cff, #fff64d);
+	background-attachment: fixed;
+}
+
+#mainContainer {
+	border: 1px solid black;
+	width: 50%;
+	margin: 50px auto;
+	background-color: white;
+}
+
+#mainContainer button {
+	height: 250px;
+	width: 100%;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+	cursor: pointer;
+}
+
+/* Begin project link specific styles */
+
+/* snek */
+#mainContainer #snek {
+	font-family: 'Nunito Sans', serif;
+	font-size: 15px;
+	text-shadow: 0 0 10px white;
+	color: white;
+	background-color: black;
+}
+
+#mainContainer #snek.flicker {
+	text-shadow: 0 0 0;
+	color: grey;
+}
+
+#mainContainer #snek h1, #mainContainer #snek div {
+	margin: 15px 0;
+	font-weight: normal;
+	width: 100%;
+	text-align: center;
+}
+
+#mainContainer #snek h1 {
+	font-size: 30px;
+}
